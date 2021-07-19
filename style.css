@@ -1,0 +1,56 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+/* Common Css */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h5{
+    font-weight: 700;
+}
+section{
+    margin-top: 80px;
+}
+.background{
+    background-color: #FCEAE8;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus{
+    color: #F8267A;
+}
+.price{
+    color: #FF136F;
+}
+.buy-now{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 30px;
+    transition: all .5s;
+}
+.cat-1{
+    background-color: #FBA500;
+}
+.cat-2{
+    background-color: #DA70D6;
+}
+.cat-3{
+    background-color: #0006FF;
+}
+.category-inner h1{
+    color: #fff;
+}
+section h2{
+    margin-bottom: 30px;
+}
+.card{
+    border: 0;
+    padding: 20px 0;
+}
+.card-footer{
+    border-top: 0;
+}
+.subscribe-info p{
+    color: gray;
+}
+/* End */
